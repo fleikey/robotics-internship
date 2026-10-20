@@ -1,0 +1,13 @@
+diff --git a/source/isaaclab_tasks/isaaclab_tasks/core/velocity/velocity_env_cfg.py b/source/isaaclab_tasks/isaaclab_tasks/core/velocity/velocity_env_cfg.py
+index 1d127d6c3..ce2c1e7c2 100644
+--- a/source/isaaclab_tasks/isaaclab_tasks/core/velocity/velocity_env_cfg.py
++++ b/source/isaaclab_tasks/isaaclab_tasks/core/velocity/velocity_env_cfg.py
+@@ -146,7 +146,7 @@ class CommandsCfg:
+         heading_control_stiffness=0.5,
+         debug_vis=True,
+         ranges=mdp.UniformVelocityCommandCfg.Ranges(
+-            lin_vel_x=(-1.0, 1.0), lin_vel_y=(-1.0, 1.0), ang_vel_z=(-1.0, 1.0), heading=(-math.pi, math.pi)
++            lin_vel_x=(-2.0, 2.0), lin_vel_y=(-2.0, 2.0), ang_vel_z=(-1.0, 1.0), heading=(-math.pi, math.pi)
+         ),
+     )
+ 
