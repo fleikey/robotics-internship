@@ -1,1 +1,6 @@
 .venv/
+.idea/
+__pycache__/
+runs/
+get_started.py
+isaaclab_modal.py
